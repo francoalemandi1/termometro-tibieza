@@ -1,0 +1,51 @@
+<template>
+  <div class='lg:flex'>
+    <div class='lg:w-1/12'></div>
+    <div class='lg:w-10/12 block lg:flex lg:justify-between text-center lg:p-8'>
+      <router-link to='/' class='lg:flex hidden'>
+        Logo
+      </router-link>
+      <div class="lg:flex lg:justify-between" :class="open ? 'block absolute h-64 w-full bg-white mt-8' : 'hidden'">
+        <ul v-for='item in items' :key='item' class='lg:py-0 py-4'>
+          <router-link :to='item.navigate' @click="open = false" class="px-8 lg:text-base text-lg font-bold" >
+            {{ item.item }}
+          </router-link>
+        </ul>
+      </div>
+
+      <!-- Burguer menu  -->
+      <div class="flex justify-end lg:hidden">
+        <div class="relative py-3 sm:max-w-xl px-4">
+          <nav x-data="{ open: false }">
+            <button class="text-gray-500 w-10 h-10 relative focus:outline-none bg-white" @click="open = !open">
+              <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+                <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
+                <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
+              </div>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class='lg:w-1/12'></div>
+  </div>
+</template>
+
+<script>
+import useNavbarItems from '../../store/navbar-items/index.js';
+import { ref } from 'vue'
+
+export default {
+  setup() {
+    const { items } = useNavbarItems();
+    
+    const open = ref(false);
+
+    return {
+      items,
+      open
+    }
+  }
+}
+</script>

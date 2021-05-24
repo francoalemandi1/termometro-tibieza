@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "item" : "Test",
+            "navigate": "/test"
+        },
+        {
+            "item" : "Preguntas frecuentes",
+            "navigate": "/preguntas-frecuentes"
+        },
+        {
+            "item" : "Sugerencias",
+            "navigate": "/sugerencias"
+        }
+    ]
+}

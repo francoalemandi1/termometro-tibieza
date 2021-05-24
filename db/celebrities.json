@@ -1,0 +1,95 @@
+
+{
+    "data": [
+        {   
+            "id": 1,
+            "image" : "../src/assets/macri.jpeg",
+            "type": "pecho frío",
+            "name": "Mauricio Macri"
+        },
+        {   
+            "id": 2,
+            "image" : "../src/assets/higuain.jpeg",
+            "type": "pecho frío",
+            "name": "Gonzalo Higuaín"
+        },
+        {
+            "id": 3,
+            "image" : "../src/assets/higuain.jpeg",
+            "type": "pecho frío",
+            "name": "Gonzalo Higuaín"
+        },
+        {
+            "id": 4,
+            "image" : "../src/assets/alberto.jpeg",
+            "type": "tibio",
+            "name": "Alberto Fernández"
+        },
+        {
+            "id": 5,
+            "image" : "../src/assets/harry.jpeg",
+            "type": "tibio",
+            "name": "Harry Potter"
+        },
+        {
+            "id": 6,
+            "image" : "../src/assets/jirafales.png",
+            "type": "tibio",
+            "name": "El profesor Jirafales"
+        },
+        {
+            "id": 7,
+            "image" : "../src/assets/alberto.jpeg",
+            "type": "muy tibio",
+            "name": "Alberto Fernández"
+        },
+        {
+            "id": 8,
+            "image" : "../src/assets/harry.jpeg",
+            "type": "muy tibio",
+            "name": "Harry Potter"
+        },
+        {
+            "id": 9,
+            "image" : "../src/assets/jirafales.png",
+            "type": "muy tibio",
+            "name": "El profesor Jirafales"
+        },
+        {
+            "id": 10,
+            "image" : "../src/assets/mafalda.jpeg",
+            "type": "crackeado",
+            "name": "Mafalda"
+        },
+        {
+            "id": 11,
+            "image" : "../src/assets/simuladores.jpeg",
+            "type": "crackeado",
+            "name": "Los Simuladores"
+        },
+        {
+            "id": 12,
+            "image" : "../src/assets/mascherano.jpeg",
+            "type": "crackeado",
+            "name": "Javier Mascherano"
+        },
+        {
+            "id": 13,
+            "image" : "../src/assets/mandela.jpeg",
+            "type": "muy crack",
+            "name": "Nelson Mandela"
+        },
+        {
+            "id": 14,
+            "image" : "../src/assets/maradona.jpeg",
+            "type": "muy crack",
+            "name": "Diego Armando Maradona"
+        },
+        {
+            "id": 15,
+            "image" : "../src/assets/che.jpeg",
+            "type": "muy crack",
+            "name": "Ernesto 'Che' Guevara"
+        }
+    ]
+}
