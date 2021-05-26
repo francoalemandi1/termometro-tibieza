@@ -5,7 +5,7 @@ const useNavbarItems = () => {
     items: null
   })
   const getNavbarItems = async () => {
-    const response = await fetch('../../../db/celebrities.json')
+    const response = await fetch('../../../db/items.json')
     const fetchedData = await response.json();
     if(response.status === 200) {
       data.items = fetchedData.data

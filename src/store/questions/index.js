@@ -3,7 +3,7 @@ import { reactive, onMounted } from 'vue';
 const useQuestionsAndAnswers = () => {
     const questions = reactive([])
     const getQuestionsAndAnswers = async () => {
-      const response = await fetch('../../../db/celebrities.json')
+      const response = await fetch('../../../db/questions.json')
       const fetchedData = await response.json();
       if(response.status === 200) {
         fetchedData.data.forEach(obj => questions.push(obj))

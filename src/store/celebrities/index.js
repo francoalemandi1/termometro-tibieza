@@ -1,5 +1,4 @@
 import { reactive, onMounted, toRefs } from 'vue';
-import asd from '../../../db/'
 
 const useDirectives = () => {
     const data = reactive({
