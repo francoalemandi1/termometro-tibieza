@@ -2,7 +2,7 @@
   <div class='block lg:flex lg:m-8 lg:p-8 px-8 text-center lg:text-left'>
     <div class='lg:w-1/12'></div>
     <div class='w-full lg:w-5/12 lg:mx-4 lg:p-0'>
-      <h1 class='text-xl font-normal font-bold my-4 mb-5'>Sobre el test</h1>
+      <h1 class='text-xl font-normal font-bold my-4 mb-5'>Sobre el termómetro de tibieza</h1>
       <p class='text-lg font-normal text-gray-800 mb-4 lg:mb-0'>Te tomará entre 8 y 10 minutos hacerlo. El test rápido tiene 10 preguntas, mientras que el test completo tiene 15. Te recomiendo que hagas el completo, ya que es más preciso y muestra más memes. Pero, obviamente, your choice.</p>
     </div>
     <div class='w-full lg:w-5/12 tex-center lg:text-left lg:mx-4'>

@@ -6,7 +6,7 @@
     <h4 class="text-xl font-normal text-gray-800 lg:mt-4 my-4 mx-4 lg:px-0">
       Respondé las preguntas y fijate qué resultados obtenes. Es un ratito! No te va a llevar más de 10 minutos.
     </h4>
-    <router-link to='/test'>
+    <router-link to='/termometro'>
       <main-button class="w-1/2 lg:w-1/3 my-4 hover:bg-indigo-500" text='Hacé el test' textColor='text-white' bgColor='bg-indigo-400' />
     </router-link>
   </section>
