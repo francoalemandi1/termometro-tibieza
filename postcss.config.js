@@ -1,4 +1,7 @@
 module.exports = {
+  options: {
+    esModule: false,
+  },
   plugins: {
     tailwindcss: {},
     autoprefixer: {},

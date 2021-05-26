@@ -9,86 +9,86 @@
         },
         {   
             "id": 2,
-            "image" : "../src/assets/higuain.jpeg",
+            "image" : "../src/assets/ash.jpeg",
             "type": "pecho frío",
-            "name": "Gonzalo Higuaín"
+            "name": "Ash Ketchup"
         },
         {
             "id": 3,
-            "image" : "../src/assets/higuain.jpeg",
+            "image" : "../src/assets/stolbizer.jpeg",
             "type": "pecho frío",
-            "name": "Gonzalo Higuaín"
+            "name": "Margarita 'yo ya gané' Stolbizer"
+        },
+        {
+            "id": 7,
+            "image" : "../src/assets/novaresio.jpeg",
+            "type": "muy tibix",
+            "name": "Luis Novaresio"
+        },
+        {
+            "id": 8,
+            "image" : "../src/assets/skinner.png",
+            "type": "muy tibix",
+            "name": "El profesor Skinner"
+        },
+        {
+            "id": 9,
+            "image" : "../src/assets/doge.png",
+            "type": "muy tibix",
+            "name": "Nosotrxs según nuestros abuelos"
         },
         {
             "id": 4,
-            "image" : "../src/assets/alberto.jpeg",
-            "type": "tibio",
-            "name": "Alberto Fernández"
+            "image" : "../src/assets/ross.jpeg",
+            "type": "tibix",
+            "name": "Ross Geller"
         },
         {
             "id": 5,
-            "image" : "../src/assets/harry.jpeg",
-            "type": "tibio",
-            "name": "Harry Potter"
+            "image" : "../src/assets/matelavado.png",
+            "type": "tibix",
+            "name": "Los últimos mates"
         },
         {
             "id": 6,
             "image" : "../src/assets/jirafales.png",
-            "type": "tibio",
-            "name": "El profesor Jirafales"
-        },
-        {
-            "id": 7,
-            "image" : "../src/assets/alberto.jpeg",
-            "type": "muy tibio",
-            "name": "Alberto Fernández"
-        },
-        {
-            "id": 8,
-            "image" : "../src/assets/harry.jpeg",
-            "type": "muy tibio",
-            "name": "Harry Potter"
-        },
-        {
-            "id": 9,
-            "image" : "../src/assets/jirafales.png",
-            "type": "muy tibio",
+            "type": "tibix",
             "name": "El profesor Jirafales"
         },
         {
             "id": 10,
             "image" : "../src/assets/mafalda.jpeg",
-            "type": "crackeado",
+            "type": "imprescindible",
             "name": "Mafalda"
         },
         {
             "id": 11,
             "image" : "../src/assets/simuladores.jpeg",
-            "type": "crackeado",
+            "type": "imprescindible",
             "name": "Los Simuladores"
         },
         {
             "id": 12,
             "image" : "../src/assets/mascherano.jpeg",
-            "type": "crackeado",
+            "type": "imprescindible",
             "name": "Javier Mascherano"
         },
         {
             "id": 13,
             "image" : "../src/assets/mandela.jpeg",
-            "type": "muy crack",
+            "type": "unx en un millón",
             "name": "Nelson Mandela"
         },
         {
             "id": 14,
             "image" : "../src/assets/maradona.jpeg",
-            "type": "muy crack",
+            "type": "unx en un millón",
             "name": "Diego Armando Maradona"
         },
         {
             "id": 15,
             "image" : "../src/assets/che.jpeg",
-            "type": "muy crack",
+            "type": "unx en un millón",
             "name": "Ernesto 'Che' Guevara"
         }
     ]

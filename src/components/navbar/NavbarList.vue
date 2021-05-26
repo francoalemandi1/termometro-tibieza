@@ -2,13 +2,18 @@
   <div class='lg:flex'>
     <div class='lg:w-1/12'></div>
     <div class='lg:w-10/12 block lg:flex lg:justify-between text-center lg:p-8'>
-      <router-link to='/' class='lg:flex hidden'>
-        Logo
+      <router-link to='/' class='lg:flex justify-center hidden'>
+        <therm-logo-svg />
+        <p class='lg:text-base text-lg font-bold mt-1 mx-2 text-indigo-500'>Tibieterm!</p>
       </router-link>
-      <div class="lg:flex lg:justify-between" :class="open ? 'block absolute h-64 w-full bg-white mt-8' : 'hidden'">
+      <div class="lg:flex lg:justify-between" :class="open ? 'block absolute h-48 w-full bg-white mt-8' : 'hidden'">
         <ul v-for='item in items' :key='item' class='lg:py-0 py-4'>
-          <router-link :to='item.navigate' @click="open = false" class="px-8 lg:text-base text-lg font-bold" >
-            {{ item.item }}
+          <router-link :to='item.navigate' @click="open = false" class='flex justify-center items-center px-4'>
+            <test-icon v-if='item.icon === "termometer"' />
+            <suggestion-icon v-if='item.icon === "suggestion"' />
+            <div  class="px-2 lg:text-base text-lg font-bold text-indigo-500" >
+              {{ item.item }}
+            </div>
           </router-link>
         </ul>
       </div>
@@ -35,8 +40,12 @@
 <script>
 import useNavbarItems from '../../store/navbar-items/index.js';
 import { ref } from 'vue'
+import testIcon from '../../assets/testSvg.vue'
+import suggestionIcon from '../../assets/suggestionSvg.vue'
+import ThermLogoSvg from '../../assets/thermLogoSvg.vue'
 
 export default {
+  components: { testIcon, suggestionIcon, ThermLogoSvg },
   setup() {
     const { items } = useNavbarItems();
     

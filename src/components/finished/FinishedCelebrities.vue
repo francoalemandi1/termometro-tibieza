@@ -1,6 +1,6 @@
 <template>
 <div class='block'>
-  <h1 class='text-3xl text-center font-bold tracking-normal leading-relaxed'>{{ flUppercaseResultType }}s destacadxs</h1>
+  <h1 class='text-3xl text-center font-bold tracking-normal leading-relaxed p-2'>{{ flUppercaseResultType }}s destacadxs</h1>
   <div class='flex flex-wrap justify-center items-center'>
     <div v-for='celebrity in filtCelebrities' :key='celebrity' class='lg:w-1/4 border-1 border-solid p-8 m-8 rounded-md text-center shadow-2xl'>
       <img :src='celebrity.image' class='rounded-md h-72 w-full object-cover' />

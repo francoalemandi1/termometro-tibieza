@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "../views/Home.vue";
-import Questions from "../views/Questions.vue";
 import Contact from "../views/Contact.vue";
 import Calculator from "../views/Calculator.vue";
 import VeryWarm from '../views/VeryWarm.vue';
@@ -16,13 +15,8 @@ const routes = [
     component: Home,
   },
   {
-    path: "/preguntas-frecuentes",
-    name: "preguntas-frecuentes",
-    component: Questions,
-  },
-  {
-    path: "/test",
-    name: "test",
+    path: "/termometro",
+    name: "termometro",
     component: Calculator,
   },
   {
@@ -31,23 +25,23 @@ const routes = [
     component: Cold,
   },
   {
-    path: '/muy-tibio',
-    name: "muy-tibio",
+    path: '/muy-tibix',
+    name: "muy-tibix",
     component: VeryLukewarm,
   },
   {
-    path: "/tibio",
-    name: "tibio",
+    path: "/tibix",
+    name: "tibix",
     component: Lukewarm,
   },
   {
-    path: "/crack",
-    name: "crack",
+    path: "/imprescindible",
+    name: "imprescindible",
     component: Warm,
   },
   {
-    path: "/muy-crack",
-    name: "muy-crack",
+    path: "/unx-en-un-millon",
+    name: "unox-en-un-millon",
     component: VeryWarm,
   },
   {

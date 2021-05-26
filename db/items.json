@@ -1,15 +1,13 @@
 {
     "data": [
         {
-            "item" : "Test",
-            "navigate": "/test"
+            "item": "Termómetro",
+            "icon": "termometer",
+            "navigate": "/termometro"
         },
-        {
-            "item" : "Preguntas frecuentes",
-            "navigate": "/preguntas-frecuentes"
-        },
-        {
-            "item" : "Sugerencias",
+        {   
+            "item": "Sugerencias",
+            "icon": "suggestion",
             "navigate": "/sugerencias"
         }
     ]

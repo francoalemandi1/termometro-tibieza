@@ -15,6 +15,6 @@
 <script>
 import MainButton from '../shared/MainButton.vue'
 export default {
-  components: { MainButton }
+  components: { MainButton },
 }
 </script>

@@ -27,7 +27,7 @@
             <button @click="selected('full')" :class="{ 'bg-green-400 text-white hover:bg-green-400': testType === 'full' }" class='border-2 border-gray-200 hover:bg-gray-50 mt-4 p-3 rounded-md text-black'>Test completo</button>
           </div>
         </div>
-        <p class='w-full lg:w-3/4 text-sm text-center lg:text-left mt-4 italic p-2 lg:p-0'>Nota: estos datos son simplemente para generarte el certificado de tibieza al finalizar el test. Tranqui, no voy a tratar de convencerte de que seas tu propio jefx.</p>
+        <p class='w-full lg:w-3/4 text-sm text-center lg:text-left mt-4 italic p-2 lg:p-0'>Nota: estos datos son simplemente para generarte el certificado de tibieza al finalizar el test.</p>
       </div>
       <main-button @click='start()' class='w-10/12 mt-4 py-4 uppercase tracking-normal leading-relaxed' text='¡Empezar el test!' bgColor='bg-indigo-400 hover:bg-indigo-500' textColor='text-white' />
     </div>

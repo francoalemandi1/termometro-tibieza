@@ -4,8 +4,10 @@
     :resultType='type' 
     :personality='personality' 
     :description='description'
+    :image='image'
   />
   <celebrities :resultType='type' />
+  <share-in-social-media />
 </template>
 
 <script>
@@ -13,17 +15,19 @@ import { useRoute } from 'vue-router';
 import { reactive, toRefs } from 'vue';
 import FinishedTest from '../components/calculator/FinishedTest.vue'
 import Celebrities from '../components/finished/FinishedCelebrities.vue';
+import ShareInSocialMedia from '../components/social-media/shareInSocialMedia.vue';
 export default {
-  components: { FinishedTest, Celebrities },
+  components: { FinishedTest, Celebrities, ShareInSocialMedia },
   setup() {
     window.route = useRoute();
 
     const finishedData = reactive(route.params)
 
     const results = reactive({
-      type: 'tibio',
-      personality: 'Raúl Alfonsín',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quis vel non culpa error facere fugit repellat alias neque, quas ea dicta tenetur, fugiat eaque libero quaerat natus? Officia, placeat?'  
+      type: 'tibix',
+      personality: 'Alberto Fernández',
+      image: 'src/assets/alberto.jpeg',
+      description: 'Sos tan tibix que hasta para el test salís en el centro. Tratas de quedar bien con Dios y con el Diablo y casi nunca te la jugas. Podes autopercibirte como de izquierda o de derecha, pero en la práctica sos de centro. Podrías estar meses saliendo con alguien y no animarte a definir la relación.'  
     })
 
     return {

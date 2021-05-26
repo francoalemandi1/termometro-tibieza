@@ -1,5 +1,6 @@
 <template>
   <finished-test 
+    id='finished-test'
     :finishedData='finishedData' 
     :resultType='type' 
     :personality='personality' 
@@ -7,6 +8,7 @@
     :image='image'
   />
   <celebrities :resultType='type' />
+  <share-in-social-media />
 </template>
 
 <script>
@@ -14,23 +16,26 @@ import { useRoute } from 'vue-router';
 import { reactive, toRefs } from 'vue';
 import FinishedTest from '../components/calculator/FinishedTest.vue'
 import Celebrities from '../components/finished/FinishedCelebrities.vue';
+
+import ShareInSocialMedia from '../components/social-media/shareInSocialMedia.vue'
+
 export default {
-  components: { FinishedTest, Celebrities },
+  components: { FinishedTest, Celebrities, ShareInSocialMedia },
   setup() {
     window.route = useRoute();
 
     const finishedData = reactive(route.params)
 
     const results = reactive({
-      type: 'crackeado',
-      personality: 'Coraje',
-      image: 'src/assets/coraje.jpeg',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quis vel non culpa error facere fugit repellat alias neque, quas ea dicta tenetur, fugiat eaque libero quaerat natus? Officia, placeat?'  
+      type: 'imprescindible',
+      personality: 'Hermione Granger',
+      image: 'src/assets/hermione.jpeg',
+      description: 'Sos decidix, sostenes tus argumentos aunque el resto no esté de acuerdo. Tomas posición y la defendes. En situaciones difíciles sacas lo mejor de vos y cuando hay que mandarse te mandas. Si hubieses sido el Pipa Higuaín en el mundial de Brasil la clavabas al ángulo. Bien ahí!'  
     })
 
     return {
       ...toRefs(results),
-      finishedData
+      finishedData,
     }
   }
 }

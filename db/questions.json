@@ -306,7 +306,7 @@
             "answers": [
                 {
                     "id": 55,
-                    "answer": "Espero a que otra persona lo haga y, si nadie lo hace, voy yo.",
+                    "answer": "Espero a que otra persona intervenga y, si nadie lo hace, voy yo.",
                     "points": 0,
                     "slug": "espero-otra-persona"
                 },
@@ -352,8 +352,8 @@
             ]
         },
         {
-            "question" : "Te invitan a una juntada a la que sabes que no vas a ir. Habitualmente respondes:",
-            "image": "../src/assets/two-buttons.png",
+            "question" : "Te invitan a una juntada a la que sabes que no vas a ir. Casi siempre responderías:",
+            "image": "../src/assets/moria.jpeg",
             "id": 21,
             "quick": true,
             "total": 3,
@@ -379,8 +379,8 @@
             ]
         },
         {
-            "question" : "Tenes muchísimas ganas de emprender algo, ya sea un viaje, negocio, etc. Siempre:",
-            "image": "../src/assets/two-buttons.png",
+            "question" : "Tenes muchísimas ganas de emprender algo, ya sea un viaje, negocio, etc. Habitualmente:",
+            "image": "../src/assets/calculating.png",
             "id": 22,
             "quick": true,
             "total": 3,
@@ -402,6 +402,33 @@
                     "answer": "Consulto siempre, pero al final termino haciendo lo que quiero.",
                     "points": 0,
                     "slug": "consulto-siempre"
+                }
+            ]
+        },
+        {
+            "question" : "Me considero una persona:",
+            "image": "../src/assets/decidida.jpeg",
+            "id": 23,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 67,
+                    "answer": "Decidida y convencida de mis ideas.",
+                    "points": 2,
+                    "slug": "muy-decidida"
+                },
+                {
+                    "id": 68,
+                    "answer": "Decidida, pero pongo en duda lo que pienso.",
+                    "points": 4,
+                    "slug": "algo-decidida"
+                },
+                {
+                    "id": 69,
+                    "answer": "Poco decidida, suelo ceder ante otras opiniones.",
+                    "points": 0,
+                    "slug": "poco-decidida"
                 }
             ]
         }

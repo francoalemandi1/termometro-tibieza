@@ -3,8 +3,8 @@
     <div>
       <secondary-title />
     </div>
-    <div class="pt-4 lg:flex justify-center items-center">
-      <img src='../../assets/harry.jpeg' class='h-80 rounded-md lg:flex hidden' />
+    <div class="lg:pt-4 lg:flex justify-center items-center">
+      <termometer-home-svg class='hidden lg:flex' />
       <secondary-description />
     </div>
   </div>
@@ -13,8 +13,9 @@
 <script>
 import SecondaryDescription from "./SecondaryDescription.vue"
 import SecondaryTitle from "./SecondaryTitle.vue"
+import TermometerHomeSvg from '../../assets/termometerHomeSvg.vue'
 
   export default {
-    components: { SecondaryDescription, SecondaryTitle }
+    components: { SecondaryDescription, SecondaryTitle, TermometerHomeSvg }
   }
 </script>

@@ -4,6 +4,14 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['"Nunito"', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'twitter': '#71bbff',
+        'instagram': '#e56969',
+        'facebook': '#3b5998',
+        'whatsapp': '#25d366'
+      }
     }
   },
   variants: {
