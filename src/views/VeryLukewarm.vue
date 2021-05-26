@@ -26,7 +26,7 @@ export default {
     const results = reactive({
       type: 'muy tibix',
       personality: 'Chidi Anagonye',
-      image: 'src/assets/chidi.png',
+      image: '../src/assets/chidi.png',
       description: 'Dubitativo por excelencia, aunque muy pero muy de vez en cuando cerras los ojos y le metes para adelante. Cuando se te ocurre algo inteligente al toque le encontras un "pero", y si conoces a gente que crees que sabe más que vos de algo te ensimizmas y te da pánico opinar. Te cuesta tomar decisiones y ahí es cuando empezas a encuestar a amigxs a ver qué piensan. Si no conoces a Chidi Anagonye, corre a ver The Good Place!'  
     })
 

@@ -2,7 +2,7 @@
     "data": [
         {
             "question" : "Estás en medio de una pandemia mundial y a tu pueblo le falta la comida. Qué harías?",
-            "image": "src/assets/locro.jpeg",
+            "image": "../src/assets/locro.jpeg",
             "id": 1,
             "quick": false,
             "total": 3,
@@ -29,7 +29,7 @@
         },
         {
             "question" : "El nivel de contagios se dispara y tenes que decidir si suspender las clases presenciales. Decidís:",
-            "image": "src/assets/clases-presenciales.jpeg",
+            "image": "../src/assets/clases-presenciales.jpeg",
             "id": 2,
             "quick": false,
             "total": 3,
@@ -56,7 +56,7 @@
         },
         {
             "question" : "Te enteras que los medios nacionales le dicen 'Ciudad' a CABA y 'Provincia' a la Provincia de Bs As. Intentas:",
-            "image": "src/assets/unitarios.png",
+            "image": "../src/assets/unitarios.png",
             "id": 4,
             "quick": false,
             "total": 3,
@@ -83,7 +83,7 @@
         },
         {
             "question" : "Es hora de dar tu discurso de asunción presidencial. A quién mencionarías en el discurso?",
-            "image": "src/assets/trump-meme.png",
+            "image": "../src/assets/trump-meme.png",
             "id": 5,
             "quick": false,
             "total": 3,
@@ -110,7 +110,7 @@
         },
         {
             "question" : "Sobre el mate: ¿cómo preferís tomarlo?",
-            "image": "src/assets/scorpion-mate.jpeg",
+            "image": "../src/assets/scorpion-mate.jpeg",
             "id": 11,
             "quick": false,
             "total": 3,
@@ -137,7 +137,7 @@
         },
         {
             "question" : "Vas a la peluquería y el corte te queda horrible, no te gusta para nada. ¿Qué haces?",
-            "image": "src/assets/corte-pelo.png",
+            "image": "../src/assets/corte-pelo.png",
             "id": 12,
             "quick": true,
             "total": 3,
@@ -164,7 +164,7 @@
         },
         {
             "question" : "Pensar en el juego/deporte que más te guste: van empatando, cualquier error podría definir el partido. Te suele pasar que:",
-            "image": "src/assets/pecho-frio.jpeg",
+            "image": "../src/assets/pecho-frio.jpeg",
             "id": 13,
             "quick": true,
             "total": 3,
@@ -183,7 +183,7 @@
                 },
                 {
                     "id": 39,
-                    "answer": "Estoyasd= atento a que mi compañerx toma la iniciativa, ahí colaboro y participo.",
+                    "answer": "Estoy atento a que mi compañerx toma la iniciativa, ahí colaboro y participo.",
                     "points": 2,
                     "slug": "siempre-amago"
                 }
@@ -191,7 +191,7 @@
         },
         {
             "question" : "Cuando te pones a escuchar música. ¿Qué preferís?",
-            "image": "src/assets/musica.jpeg",
+            "image": "../src/assets/musica.jpeg",
             "id": 15,
             "quick": true,
             "total": 3,
@@ -218,7 +218,7 @@
         },
         {
             "question" : "Sabes que tu amigx está haciendo cualquiera con el chongui. Te comenta cómo viene todo y te pide tu opinión. Se la das, pero:",
-            "image": "src/assets/opinion.jpeg",
+            "image": "../src/assets/opinion.jpeg",
             "id": 16,
             "quick": false,
             "total": 3,
@@ -245,7 +245,7 @@
         },
         {
             "question" : "Sobre la politica pienso que:",
-            "image": "src/assets/debate.jpeg",
+            "image": "../src/assets/debate.jpeg",
             "id": 17,
             "quick": true,
             "total": 3,
@@ -272,7 +272,7 @@
         },
         {
             "question" : "En un intercambio de opiniones entre pares tiendo a:",
-            "image": "src/assets/ansiedad.png",
+            "image": "../src/assets/ansiedad.png",
             "id": 18,
             "quick": true,
             "total": 3,
@@ -299,7 +299,7 @@
         },
         {
             "question" : "Presencias una injusticia de cualquier tipo. ¿Qué haces?",
-            "image": "src/assets/batman.jpeg",
+            "image": "../src/assets/batman.jpeg",
             "id": 19,
             "quick": true,
             "total": 3,
@@ -326,7 +326,7 @@
         },
         {
             "question" : "Tenes que tomar una decisión arriesgada que podría cambiar tu vida, te invade el miedo y la incertidumbre. Habitualmente:",
-            "image": "src/assets/two-buttons.png",
+            "image": "../src/assets/two-buttons.png",
             "id": 20,
             "quick": true,
             "total": 3,
@@ -353,7 +353,7 @@
         },
         {
             "question" : "Te invitan a una juntada a la que sabes que no vas a ir. Casi siempre responderías:",
-            "image": "src/assets/moria.jpeg",
+            "image": "../src/assets/moria.jpeg",
             "id": 21,
             "quick": true,
             "total": 3,
@@ -380,7 +380,7 @@
         },
         {
             "question" : "Tenes muchísimas ganas de emprender algo, ya sea un viaje, negocio, etc. Habitualmente:",
-            "image": "src/assets/calculating.png",
+            "image": "../src/assets/calculating.png",
             "id": 22,
             "quick": true,
             "total": 3,
@@ -407,7 +407,7 @@
         },
         {
             "question" : "Me considero una persona:",
-            "image": "src/assets/decidida.jpeg",
+            "image": "../src/assets/decidida.jpeg",
             "id": 23,
             "quick": true,
             "total": 3,
