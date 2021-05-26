@@ -6,8 +6,7 @@
 
 <script>
 import MainGetCertified from './MainGetCertified.vue'
-import MainTepidityImage from './MainTepidityImage.vue'
   export default {
-    components: { MainGetCertified, MainTepidityImage}   
+    components: { MainGetCertified }   
   }
 </script>
