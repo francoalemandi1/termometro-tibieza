@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "item": "Termómetro",
+            "icon": "termometer",
+            "navigate": "/termometro"
+        },
+        {   
+            "item": "Sugerencias",
+            "icon": "suggestion",
+            "navigate": "/sugerencias"
+        }
+    ]
+}

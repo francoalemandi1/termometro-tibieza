@@ -1,0 +1,436 @@
+{
+    "data": [
+        {
+            "question" : "Estás en medio de una pandemia mundial y a tu pueblo le falta la comida. Qué harías?",
+            "image": "../src/assets/locro.jpeg",
+            "id": 1,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Estatizaría las empresas productoras de alimentos y me aseguraría de que la gente pueda comer.",
+                    "points": 4,
+                    "slug": "haria-el-picante"
+                },
+                {
+                    "id": 2,
+                    "answer": "Subsidiaría a las empresas para que mantengan los precios accesibles.",
+                    "points": 0,
+                    "slug": "tomaria-armas"
+                },
+                {
+                    "id": 3,
+                    "answer": "Dejaría que el libre mercado determine los precios de los productos.",
+                    "points": 2,
+                    "slug": "negociaria-magnetto"
+                }
+            ]
+        },
+        {
+            "question" : "El nivel de contagios se dispara y tenes que decidir si suspender las clases presenciales. Decidís:",
+            "image": "../src/assets/clases-presenciales.jpeg",
+            "id": 2,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 4,
+                    "answer": "Suspenderlas sí o sí. También adelanto vacaciones. Las vidas primero.",
+                    "points": 4,
+                    "slug": "pego-chirlo"
+                },
+                {
+                    "id": 5,
+                    "answer": "Ponderar el costo político y buscar atenuantes.",
+                    "points": 2,
+                    "slug": "reforma-judicial"
+                },
+                {
+                    "id": 6,
+                    "answer": "Dialogar con todos los espacios involucrados y ver qué opinan.",
+                    "points": 0,
+                    "slug": "mensajes-pistola"
+                }
+            ]
+        },
+        {
+            "question" : "Te enteras que los medios nacionales le dicen 'Ciudad' a CABA y 'Provincia' a la Provincia de Bs As. Intentas:",
+            "image": "../src/assets/unitarios.png",
+            "id": 4,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 10,
+                    "answer": "Repartir mejor el presupuesto destinado a medios de comunicación.",
+                    "points": 4,
+                    "slug": "repartir-presupuesto"
+                },
+                {
+                    "id": 11,
+                    "answer": "Dejar todo como está. CABA y Provincia de Buenos Aires definen elecciones.",
+                    "points": 2,
+                    "slug": "como-esta"
+                },
+                {
+                    "id": 12,
+                    "answer": "Equilibrar los dos puntos anteriores para ganar desde ambos lados.",
+                    "points": 0,
+                    "slug": "chaco-que-es"
+                }
+            ]
+        },
+        {
+            "question" : "Es hora de dar tu discurso de asunción presidencial. A quién mencionarías en el discurso?",
+            "image": "../src/assets/trump-meme.png",
+            "id": 5,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 13,
+                    "answer": "A Alfonsín. El mayor y mejor defensor de la democracia.",
+                    "points": 2,
+                    "slug": "haria-el-picante"
+                },
+                {
+                    "id": 14,
+                    "answer": "A Eva Perón. La verdadera comandante de los trabajadores.",
+                    "points": 4,
+                    "slug": "tomaria-armas"
+                },
+                {
+                    "id": 15,
+                    "answer": "A otrx. No acuerdo con esas posiciones binarias.",
+                    "points": 0,
+                    "slug": "negociaria-magnetto"
+                }
+            ]
+        },
+        {
+            "question" : "Sobre el mate: ¿cómo preferís tomarlo?",
+            "image": "../src/assets/scorpion-mate.jpeg",
+            "id": 11,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 31,
+                    "answer": "Bien amargo. Ascendencia de gaucho matrero.",
+                    "points": 4,
+                    "slug": "amargo-gaucho"
+                },
+                {
+                    "id": 32,
+                    "answer": "Más dulce que Ricardo Fort. Necesito rendir ese final.",
+                    "points": 2,
+                    "slug": "dulce-ricky"
+                },
+                {
+                    "id": 33,
+                    "answer": "Con un chiquito de chucker. Obvio, para cortar la acidez.",
+                    "points": 0,
+                    "slug": "chucker-acidez"
+                }
+            ]
+        },
+        {
+            "question" : "Vas a la peluquería y el corte te queda horrible, no te gusta para nada. ¿Qué haces?",
+            "image": "../src/assets/corte-pelo.png",
+            "id": 12,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 34,
+                    "answer": "Le digo al peluquerx que me retoque un poco así queda como me gusta. Ready pal Tinder",
+                    "points": 2,
+                    "slug": "retoque-gusta"
+                },
+                {
+                    "id": 35,
+                    "answer": "Le agradezco como el capítulo en el que Marge le regala un videojuego a Bart. Llego a mi casa y lloro un ratito.",
+                    "points": 0,
+                    "slug": "agradezco-y-me-voy"
+                },
+                {
+                    "id": 36,
+                    "answer": "Le rompo los huevos/ovarios hasta que me quede como a mi me gusta.",
+                    "points": 4,
+                    "slug": "rompo-huevos"
+                }
+            ]
+        },
+        {
+            "question" : "Pensar en el juego/deporte que más te guste: van empatando, cualquier error podría definir el partido. Te suele pasar que:",
+            "image": "../src/assets/pecho-frio.jpeg",
+            "id": 13,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 37,
+                    "answer": "Te sudan las manos y te tiemblan las piernas. Te aislas y disimuladamente participas poco.",
+                    "points": 0,
+                    "slug": "sudan-manos-piernas"
+                },
+                {
+                    "id": 38,
+                    "answer": "Alentas con huevo/ovarios a todxs mis compañerxs y comando a mi equipo a la victoria. ",
+                    "points": 4,
+                    "slug": "agito-huevos-ovarios"
+                },
+                {
+                    "id": 39,
+                    "answer": "Estoy atento a que mi compañerx toma la iniciativa, ahí colaboro y participo.",
+                    "points": 2,
+                    "slug": "siempre-amago"
+                }
+            ]
+        },
+        {
+            "question" : "Cuando te pones a escuchar música. ¿Qué preferís?",
+            "image": "../src/assets/musica.jpeg",
+            "id": 15,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 43,
+                    "answer": "El recital donde todo se desmadra. El artista se delira, desafina, pero transmite lo que quiere transmitir. Piel de gallina.",
+                    "points": 4,
+                    "slug": "recital-desmadra"
+                },
+                {
+                    "id": 44,
+                    "answer": "Unos unplugged, obvio. Música fina para oídos finos.",
+                    "points": 0,
+                    "slug": "unplugged-fino"
+                },
+                {
+                    "id": 45,
+                    "answer": "Lo que venga. Aguante Los Gardelitos.",
+                    "points": 2,
+                    "slug": "lo-que-venga"
+                }
+            ]
+        },
+        {
+            "question" : "Sabes que tu amigx está haciendo cualquiera con el chongui. Te comenta cómo viene todo y te pide tu opinión. Se la das, pero:",
+            "image": "../src/assets/opinion.jpeg",
+            "id": 16,
+            "quick": false,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 46,
+                    "answer": "Aclaras que es tu opinión y que no es definitiva. Las relaciones sexo-afectivas son complejas.",
+                    "points": 0,
+                    "slug": "aclaro-mi-opinion"
+                },
+                {
+                    "id": 47,
+                    "answer": "Insistis en que tiene que meditarlo bien pero que tiene que hacer lo que le decis.",
+                    "points": 2,
+                    "slug": "mejor-prevenir"
+                },
+                {
+                    "id": 48,
+                    "answer": "Le decis que en terapia seguramente va a poder explorar más certeramente lo que le pasa.",
+                    "points": 4,
+                    "slug": "vaya-a-terapia"
+                }
+            ]
+        },
+        {
+            "question" : "Sobre la politica pienso que:",
+            "image": "../src/assets/debate.jpeg",
+            "id": 17,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 49,
+                    "answer": "No me importa. Son todxs iguales.",
+                    "points": 2,
+                    "slug": "no-me-importa"
+                },
+                {
+                    "id": 50,
+                    "answer": "Me importa, pero no me inclino por ningun partido. Soy neutrx.",
+                    "points": 0,
+                    "slug": "soy-neutro"
+                },
+                {
+                    "id": 51,
+                    "answer": "Me importa, me involucro, y busco cambiar algo. Las cosas se cambian desde ahi.",
+                    "points": 4,
+                    "slug": "me-involucro"
+                }
+            ]
+        },
+        {
+            "question" : "En un intercambio de opiniones entre pares tiendo a:",
+            "image": "../src/assets/ansiedad.png",
+            "id": 18,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 52,
+                    "answer": "No dar la mía si estoy en desacuerdo. No tengo ganas de generar situaciones incómodas.",
+                    "points": 2,
+                    "slug": "no-darla-si-desacuerdo"
+                },
+                {
+                    "id": 53,
+                    "answer": "La doy pero muy maquillada, puntualizando en que existen muchos “peros” y bifurcaciones posibles.",
+                    "points": 0,
+                    "slug": "doy-pero-maquillada"
+                },
+                {
+                    "id": 54,
+                    "answer": "La doy y la defiendo con argumentos.",
+                    "points": 4,
+                    "slug": "doy-y-defiendo"
+                }
+            ]
+        },
+        {
+            "question" : "Presencias una injusticia de cualquier tipo. ¿Qué haces?",
+            "image": "../src/assets/batman.jpeg",
+            "id": 19,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 55,
+                    "answer": "Espero a que otra persona intervenga y, si nadie lo hace, voy yo.",
+                    "points": 0,
+                    "slug": "espero-otra-persona"
+                },
+                {
+                    "id": 56,
+                    "answer": "Intervengo de manera urgente.",
+                    "points": 4,
+                    "slug": "intervengo-urgente"
+                },
+                {
+                    "id": 57,
+                    "answer": "Me quedo paradx observando y, si el problema escala, intervengo.",
+                    "points": 2,
+                    "slug": "me-quedo-observando"
+                }
+            ]
+        },
+        {
+            "question" : "Tenes que tomar una decisión arriesgada que podría cambiar tu vida, te invade el miedo y la incertidumbre. Habitualmente:",
+            "image": "../src/assets/two-buttons.png",
+            "id": 20,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 58,
+                    "answer": "Me quedo donde estoy. Es mejor siempre ir a la segura.",
+                    "points": 2,
+                    "slug": "ir-a-segura"
+                },
+                {
+                    "id": 59,
+                    "answer": "Voy all-in. La vida pasa rápido y no da segundas oportunidades.",
+                    "points": 4,
+                    "slug": "all-in"
+                },
+                {
+                    "id": 60,
+                    "answer": "Pienso racionalmente sobre el abanico de posibilidades que realmente tengo y tomo la decisión más acorde a las circunstancias.",
+                    "points": 0,
+                    "slug": "pienso-posibilidades"
+                }
+            ]
+        },
+        {
+            "question" : "Te invitan a una juntada a la que sabes que no vas a ir. Casi siempre responderías:",
+            "image": "../src/assets/moria.jpeg",
+            "id": 21,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 61,
+                    "answer": "Que vas a ver si te organizas para poder ir.",
+                    "points": 2,
+                    "slug": "les-aviso"
+                },
+                {
+                    "id": 62,
+                    "answer": "Que no, que no tenes ganas de ir. Total sinceridad",
+                    "points": 4,
+                    "slug": "soy-sincerx"
+                },
+                {
+                    "id": 63,
+                    "answer": "Que sí, que re estás adentro para darte de baja horas antes.",
+                    "points": 0,
+                    "slug": "dar-de-baja"
+                }
+            ]
+        },
+        {
+            "question" : "Tenes muchísimas ganas de emprender algo, ya sea un viaje, negocio, etc. Habitualmente:",
+            "image": "../src/assets/calculating.png",
+            "id": 22,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 64,
+                    "answer": "Consultas con varias personas a ver qué opinan y en base a eso decidís qué hacer.",
+                    "points": 2,
+                    "slug": "consulto-varias-personas"
+                },
+                {
+                    "id": 65,
+                    "answer": "Te mandas decididamente a encarar lo que te propusiste.",
+                    "points": 4,
+                    "slug": "mando-decididamente"
+                },
+                {
+                    "id": 66,
+                    "answer": "Consulto siempre, pero al final termino haciendo lo que quiero.",
+                    "points": 0,
+                    "slug": "consulto-siempre"
+                }
+            ]
+        },
+        {
+            "question" : "Me considero una persona:",
+            "image": "../src/assets/decidida.jpeg",
+            "id": 23,
+            "quick": true,
+            "total": 3,
+            "answers": [
+                {
+                    "id": 67,
+                    "answer": "Decidida y convencida de mis ideas.",
+                    "points": 2,
+                    "slug": "muy-decidida"
+                },
+                {
+                    "id": 68,
+                    "answer": "Decidida, pero pongo en duda lo que pienso.",
+                    "points": 4,
+                    "slug": "algo-decidida"
+                },
+                {
+                    "id": 69,
+                    "answer": "Poco decidida, suelo ceder ante otras opiniones.",
+                    "points": 0,
+                    "slug": "poco-decidida"
+                }
+            ]
+        }
+    ]
+}
