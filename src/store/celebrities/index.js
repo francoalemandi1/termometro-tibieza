@@ -1,11 +1,12 @@
 import { reactive, onMounted, toRefs } from 'vue';
+import asd from '../../../db/'
 
 const useDirectives = () => {
     const data = reactive({
       celebrities: null
     })
     const getCelebrities = async () => {
-      const response = await fetch('public/db/celebrities.json')
+      const response = await fetch('../../../db/celebrities.json')
       const fetchedData = await response.json();
       if(response.status === 200) {
         data.celebrities = fetchedData.data
