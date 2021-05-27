@@ -1,8 +1,5 @@
 import { reactive, onMounted, toRefs } from 'vue';
 
-const uri = `${process.env.API_URL}/${process.env.PORT}`;
-
-
 const useDirectives = () => {
     const data = reactive({
       directives: null

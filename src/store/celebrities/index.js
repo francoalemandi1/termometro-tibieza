@@ -1,8 +1,5 @@
 import { reactive, onMounted, toRefs } from 'vue';
 
-const uri = `${process.env.VUE_APP_APIURL}`;
-console.log(uri)
-
 const useDirectives = () => {
     const data = reactive({
       celebrities: null

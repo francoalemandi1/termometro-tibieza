@@ -1,7 +1,5 @@
 import { reactive, onMounted } from 'vue';
 
-const uri = `${process.env.API_URL}/${process.env.PORT}`;
-
 const useQuestionsAndAnswers = () => {
     const questions = reactive([])
     const getQuestionsAndAnswers = async () => {
