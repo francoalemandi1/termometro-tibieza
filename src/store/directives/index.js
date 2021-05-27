@@ -1,16 +1,14 @@
 import { reactive, onMounted, toRefs } from 'vue';
 
-const uri = new URL("../../../db/directives.json", document.baseURI).href
-//=> "https://stackoverflow.com/questions/mypath"
+const uri = `${process.env.API_URL}/${process.env.PORT}`;
 
-console.log(uri)
 
 const useDirectives = () => {
     const data = reactive({
       directives: null
     })
     const getDirectives = async () => {
-      const response = await fetch(uri)
+      const response = await fetch(`http://localhost:8080/directives`)
       const fetchedData = await response.json();
       if(response.status === 200) {
         data.directives = fetchedData.data

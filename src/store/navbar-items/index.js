@@ -1,16 +1,13 @@
 import { toRefs, reactive, onMounted } from 'vue'
 
-const uri = new URL("../../../db/items.json", document.baseURI).href
-//=> "https://stackoverflow.com/questions/mypath"
-
-console.log(uri)
+const uri = `${process.env.API_URL}/${process.env.PORT}`;
 
 const useNavbarItems = () => {
   const data = reactive({
     items: null
   })
   const getNavbarItems = async () => {
-    const response = await fetch(uri)
+    const response = await fetch(`http://localhost:8080/items`)
     const fetchedData = await response.json();
     if(response.status === 200) {
       data.items = fetchedData.data
