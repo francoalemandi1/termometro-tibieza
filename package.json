@@ -6,13 +6,9 @@
     "build": "vite build"
   },
   "dependencies": {
-    "axios": "^0.21.1",
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "firebase": "^8.6.2",
     "mitt": "^2.1.0",
     "vue": "^3.0.4",
-    "vue-axios": "^3.2.4",
     "vue-router": "^4.0.6"
   },
   "devDependencies": {
