@@ -8,7 +8,7 @@ const useDirectives = () => {
       celebrities: null
     })
     const getCelebrities = async () => {
-      const response = await fetch(`http://localhost:8080/celebrities`)
+      const response = await fetch(`https://termometro-tibieza-backend.vercel.app/celebrities`)
       const fetchedData = await response.json();
       if(response.status === 200) {
         data.celebrities = fetchedData.data

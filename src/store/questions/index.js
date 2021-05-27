@@ -5,7 +5,7 @@ const uri = `${process.env.API_URL}/${process.env.PORT}`;
 const useQuestionsAndAnswers = () => {
     const questions = reactive([])
     const getQuestionsAndAnswers = async () => {
-      const response = await fetch(`http://localhost:8080/questions`)
+      const response = await fetch(`https://termometro-tibieza-backend.vercel.app/questions`)
       const fetchedData = await response.json();
       if(response.status === 200) {
         fetchedData.data.forEach(obj => questions.push(obj))
