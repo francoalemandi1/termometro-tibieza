@@ -41,7 +41,7 @@ const routes = [
   },
   {
     path: "/unx-en-un-millon",
-    name: "unox-en-un-millon",
+    name: "unx-en-un-millon",
     component: VeryWarm,
   },
   {
