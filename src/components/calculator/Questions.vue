@@ -19,7 +19,7 @@
                     <span class="radio__control"></span>
                   </span>
                   <span class="radio__label lg:mx-4 my-3 ml-4 mr-2 lg:text-base text-lg " :style="selectedAnswer === answer.slug ? 'transform: scale(1.02); opacity: 1;font-weight: 800;' : ''">
-                    {{ answer.points }} - {{ answer.answer }}
+                    {{ answer.answer }}
                   </span>
                 </label>
               </div>
