@@ -35,8 +35,8 @@ const routes = [
     component: Lukewarm,
   },
   {
-    path: "/imprescindible",
-    name: "imprescindible",
+    path: "/sos-imprescindible",
+    name: "sos imprescindible",
     component: Warm,
   },
   {

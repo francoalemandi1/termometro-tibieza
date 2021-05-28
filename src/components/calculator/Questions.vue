@@ -136,7 +136,7 @@ export default {
       if(percentages.coldPerc) router.push({ name: 'helado', params: paramsProps, props: true })
       if(percentages.veryLukewarmPerc) router.push({ name: 'muy-tibix', params: paramsProps, props: true })
       if(percentages.lukeWarmPerc) router.push({ name: 'tibix', params: paramsProps, props: true })
-      if(percentages.crackPerc) router.push({ name: 'imprescindible', params: paramsProps, props: true })
+      if(percentages.crackPerc) router.push({ name: 'sos-imprescindible', params: paramsProps, props: true })
       if(percentages.veryCrackPerc) router.push({ name: 'unx-en-un-millon', params: paramsProps, props: true })
     }
 
