@@ -1,6 +1,5 @@
 <template>
   <finished-test 
-    id='finished-test'
     :finishedData='finishedData' 
     :resultType='type' 
     :personality='personality' 
@@ -35,7 +34,7 @@ export default {
 
     return {
       ...toRefs(results),
-      finishedData,
+      finishedData
     }
   }
 }

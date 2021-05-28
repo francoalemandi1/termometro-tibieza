@@ -63,7 +63,6 @@ export default {
     const onPersonalData = (first, last) => {
       firstName.value = first;
       lastName.value = last;
-      console.log(first, last);
     }
 
     return {

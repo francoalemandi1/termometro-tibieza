@@ -34,9 +34,6 @@ export default {
       answeredValue.value = initialValue + firstValue;
     })
 
-    console.log(props.questionsAnswered, questionsTotal)
-
-
     return {
       answeredValue,
       percentageCompleted

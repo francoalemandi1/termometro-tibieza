@@ -16,6 +16,7 @@ import { reactive, toRefs } from 'vue';
 import FinishedTest from '../components/calculator/FinishedTest.vue'
 import Celebrities from '../components/finished/FinishedCelebrities.vue';
 import ShareInSocialMedia from '../components/social-media/shareInSocialMedia.vue'
+
 export default {
   components: { FinishedTest, Celebrities, ShareInSocialMedia },
   setup() {

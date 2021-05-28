@@ -36,7 +36,7 @@ const routes = [
   },
   {
     path: "/sos-imprescindible",
-    name: "sos imprescindible",
+    name: "sos-imprescindible",
     component: Warm,
   },
   {

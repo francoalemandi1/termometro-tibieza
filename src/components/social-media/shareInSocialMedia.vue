@@ -37,8 +37,6 @@ export default {
   setup() {
     window.route = useRoute();
 
-    console.log(window.route.name);
-
     const urlLink = ref(location.href);
     const isCopyClicked = ref(false); 
     const copyUrlLink = () => {
