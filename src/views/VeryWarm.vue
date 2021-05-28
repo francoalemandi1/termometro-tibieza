@@ -26,8 +26,8 @@ export default {
 
     const results = reactive({
       type: 'unx en un millón',
-      personality: 'https://i.imgur.com/EI7vJtE.jpg',
-      image: 'https://imgur.com/EI7vJtE',
+      personality: 'José de San Martín',
+      image: 'https://i.imgur.com/EI7vJtE.jpg',
       description: 'Hay dos posibilidades si llegaste a esta sección: a) mentiste descaradamente, b) sos la reencarnación de San Martín. En fin, si no hubiese estado el Diego contra los ingleses, hubieses estado vos. Nada más para decir: mis respetos.'  
     })
 
