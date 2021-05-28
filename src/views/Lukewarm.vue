@@ -26,7 +26,7 @@ export default {
     const results = reactive({
       type: 'tibix',
       personality: 'Alberto Fernández',
-      image: '../src/assets/alberto.jpeg',
+      image: 'https://imgur.com/3mHBK72',
       description: 'Sos tan tibix que hasta para el test salís en el centro. Tratas de quedar bien con Dios y con el Diablo y casi nunca te la jugas. Podes autopercibirte como de izquierda o de derecha, pero en la práctica sos de centro. Podrías estar meses saliendo con alguien y no animarte a definir la relación.'  
     })
 
