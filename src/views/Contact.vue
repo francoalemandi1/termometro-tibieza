@@ -1,7 +1,7 @@
 <template>
-<div class='flex lg:m-8 lg:p-8 px-8 p-2 m-2'>
+<div class='flex lg:m-8 lg:p-8 lg:px-8 p-2 m-2'>
   <div class='lg:w-1/12'></div>
-  <section class="lg:w-10/12 mx-4">
+  <section class="lg:w-10/12 lg:mx-4">
     <h1 class="text-xl font-normal font-bold lg:mt-4 my-4 mx-4 lg:px-0 leading-relaxed">
       Sugerencias!
     </h1>

@@ -7,6 +7,9 @@
         <p class='lg:text-base text-lg font-bold mt-1 mx-2 text-indigo-500'>Tibieterm!</p>
       </router-link>
       <div class="lg:flex lg:justify-between" :class="open ? 'block absolute h-48 w-full bg-white mt-8' : 'hidden'">
+        <router-link to='/' class='lg:hidden lg:justify-center'>
+          <p class='lg:text-base text-lg font-bold mb-2 mx-2 text-indigo-500'>Inicio</p>
+        </router-link>
         <ul v-for='item in items' :key='item' class='lg:py-0 py-4'>
           <router-link :to='item.navigate' @click="open = false" class='flex justify-center items-center px-4'>
             <test-icon v-if='item.icon === "termometer"' />

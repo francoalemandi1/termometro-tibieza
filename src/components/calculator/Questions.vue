@@ -4,12 +4,15 @@
       <div class='lg:flex hidden w-4/12'>
         <calc-directives />
       </div>
-      <div class='w-full lg:w-8/12 lg:mx-8 lg:px-8 px-4 mx-4'>
+      <div id='questions' class='w-full lg:w-8/12 lg:mx-8 lg:px-8 px-4 mx-4'>
         <answered-questions-counter :questionsTotal='questions.length' :questionsAnswered='questionNumber' />
         <div class='flex'>
           <div class="block w-full lg:w-8/12 lg:mr-4">
+            <div class='block lg:hidden lg:w-4/12 p-2'>
+              <img :src='question.image' class='rounded-lg w-full h-48 object-cover' />
+            </div>
             <div class="lg:mr-8">
-              <h1 class='py-4 font-bold text-xl text-left ml-8'>{{ question.question }}</h1>
+              <h1 class='py-4 text-center font-bold text-xl lg:text-left lg:ml-8'>{{ question.question }}</h1>
             </div>
             <ul class=''>
               <div v-for='answer in question.answers' :key='answer.id' :id='question.id' class="flex" >
@@ -140,6 +143,12 @@ export default {
       if(percentages.veryCrackPerc) router.push({ name: 'unx-en-un-millon', params: paramsProps, props: true })
     }
 
+    const scrollToTop = () => {
+      var element = document.getElementById("questions");
+      var top = element.offsetTop;
+      window.scrollTo(0, top);
+    }
+
     const selectedAnswer = ref(null);
     const isAnswerNotSelected = ref(false);
     const nextQuestion = () => {
@@ -150,6 +159,7 @@ export default {
         selectedAnswer.value = null;
         isAnswerNotSelected.value = false;
         current.questionNumber++
+        scrollToTop();
 
         // Calculo del total de puntos acumulados.
         points.list.push(points.amount);
@@ -185,7 +195,8 @@ export default {
       goToCustomRoute,
       selectedAnswer,
       isAnswerNotSelected,
-      handleInputChanges
+      handleInputChanges,
+      scrollToTop
     }
   }
 }

@@ -6,7 +6,10 @@
       <h1 class='text-3xl font-bold tracking-normal my-4 leading-relaxed py-4'>{{ firstName }} {{ lastName }}, el termómetro te dio en {{ percentage }} grados</h1>
       <termometer :termWidth='parseInt(percentage)' />
       <p class='text-lg font-normal text-gray-400'>Por lo que sos:</p>
-      <h1 class='text-3xl font-bold tracking-normal leading-relaxed uppercase'>{{ resultType }}</h1>
+      <h1 class='flex justify-center text-3xl font-bold tracking-normal leading-relaxed uppercase'>
+        <p class='px-2'>{{ resultType }}</p> 
+        <chili-svg v-if="resultType === 'ají picante'" />
+        </h1>
       <h1 class='text-2xl font-bold tracking-normal leading-relaxed my-4'>Qué significa ser {{ resultType }}?</h1>
       <p class='text-lg tracking-normal leading-relaxed'>{{ description }}</p>
     </div>
@@ -26,9 +29,10 @@
 import termometer from '../../assets/termometer.vue';
 import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
+import ChiliSvg from '../../assets/chiliSvg.vue';
 
   export default {
-    components: { termometer },
+    components: { termometer, ChiliSvg },
     props: {
       finishedData: {
         type: Object,
