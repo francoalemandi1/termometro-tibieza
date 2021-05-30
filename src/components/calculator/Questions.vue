@@ -125,22 +125,20 @@ export default {
     const goToCustomRoute = () => {
       let perc = percentage.value;
       let percentages = {
-        coldPerc: perc <= 20,
-        veryLukewarmPerc: perc > 20 && perc <= 40,
-        lukeWarmPerc: perc > 40 && perc <= 60,
-        crackPerc: perc > 60 && perc <= 80,
-        veryCrackPerc: perc > 80 && perc <= 100
+        veryLukewarmPerc: perc <= 40,
+        lukeWarmPerc: perc > 40 && perc <= 64,
+        crackPerc: perc > 64 && perc <= 81,
+        veryCrackPerc: perc > 81 && perc <= 100
       }
       let paramsProps = {
         percentage: percentage.value,
         firstName: firstName,
         lastName: lastName
       };
-      if(percentages.coldPerc) router.push({ name: 'helado', params: paramsProps, props: true })
       if(percentages.veryLukewarmPerc) router.push({ name: 'muy-tibix', params: paramsProps, props: true })
       if(percentages.lukeWarmPerc) router.push({ name: 'tibix', params: paramsProps, props: true })
-      if(percentages.crackPerc) router.push({ name: 'sos-imprescindible', params: paramsProps, props: true })
-      if(percentages.veryCrackPerc) router.push({ name: 'unx-en-un-millon', params: paramsProps, props: true })
+      if(percentages.crackPerc) router.push({ name: 'aji-picante', params: paramsProps, props: true })
+      if(percentages.veryCrackPerc) router.push({ name: 'barrilete-cosmicx', params: paramsProps, props: true })
     }
 
     const scrollToTop = () => {
@@ -164,6 +162,8 @@ export default {
         // Calculo del total de puntos acumulados.
         points.list.push(points.amount);
         points.earned = points.list.reduce((a, b) => a + b)
+
+        console.log(points.earned)
       }
 
       if(current.questionNumber === questions.length) {

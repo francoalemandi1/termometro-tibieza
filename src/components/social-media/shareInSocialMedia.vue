@@ -7,7 +7,7 @@
       <p class='mx-1'>Facebook</p>
     </a>
     <a @click='init()' id='twitter-btn' target='_blank' class="text-sm flex cursor-pointer p-2 lg:mx-4 my-2 lg:my-0 text-white rounded-md border-solid border-1 bg-twitter">
-      <twitter-icon class='' />
+      <twitter-icon width='20px' height='20px' />
       <p class='mx-1'>Twitter</p>
     </a>
     <a @click='init()' id='whatsapp-btn' target='_blank' class="text-sm flex cursor-pointer p-2 mx-4 my-2 lg:my-0 text-white rounded-md border-solid border-1 bg-whatsapp">

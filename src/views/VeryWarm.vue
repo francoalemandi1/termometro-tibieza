@@ -25,10 +25,10 @@ export default {
     const finishedData = reactive(route.params)
 
     const results = reactive({
-      type: 'unx en un millón',
-      personality: 'José de San Martín',
-      image: 'https://i.imgur.com/EI7vJtE.jpg',
-      description: 'Hay dos posibilidades si llegaste a esta sección: a) mentiste descaradamente, b) sos la reencarnación de San Martín. En fin, si no hubiese estado el Diego contra los ingleses, hubieses estado vos. Nada más para decir: mis respetos.'  
+      type: 'barrilete cósmicx',
+      personality: 'El Comandante Ricardo Fort',
+      image: 'https://i.imgur.com/Qx58eqn.jpg',
+      description: 'Hay dos posibilidades si llegaste a esta sección: a) mentiste descaradamente, b) sos la reencarnación del Comandante. Si le tenes que decir a alguien que saque la mano de ahí carajo, se lo decís. En fin, si no hubiese estado el Diego contra los ingleses, hubieses estado vos. Nada más para decir: mis respetos.'  
     })
 
     return {

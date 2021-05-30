@@ -27,8 +27,8 @@ export default {
 
     const results = reactive({
       type: 'ají picante',
-      personality: 'Hermione Granger',
-      image: 'https://i.imgur.com/HdvpVDj.jpg',
+      personality: 'Javier Mascherano',
+      image: 'https://i.imgur.com/dBzAKq2.jpg',
       description: 'Sos decidix, sostenes tus argumentos aunque el resto no esté de acuerdo. Tomas posición y la defendes. En situaciones difíciles sacas lo mejor de vos y cuando hay que mandarse te mandas. Si hubieses sido el Pipa Higuaín en el mundial de Brasil la clavabas al ángulo. Bien ahí!'  
     })
 

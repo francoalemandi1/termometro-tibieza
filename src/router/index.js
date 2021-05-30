@@ -20,11 +20,6 @@ const routes = [
     component: Calculator,
   },
   {
-    path: '/helado',
-    name: "helado",
-    component: Cold,
-  },
-  {
     path: '/muy-tibix',
     name: "muy-tibix",
     component: VeryLukewarm,
@@ -35,13 +30,13 @@ const routes = [
     component: Lukewarm,
   },
   {
-    path: "/sos-imprescindible",
-    name: "sos-imprescindible",
+    path: "/aji-picante",
+    name: "aji-picante",
     component: Warm,
   },
   {
-    path: "/unx-en-un-millon",
-    name: "unx-en-un-millon",
+    path: "/barrilete-cosmicx",
+    name: "barrilete-cosmicx",
     component: VeryWarm,
   },
   {

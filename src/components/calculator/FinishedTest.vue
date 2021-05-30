@@ -1,5 +1,5 @@
 <template>
-<div v-if='firstName' class='block lg:flex mx-4 lg:px-4 text-center lg:text-left'>
+<div v-if='!firstName' class='block lg:flex mx-4 lg:px-4 text-center lg:text-left'>
   <div class='lg:w-1/12'></div>
   <div class="lg:w-5/12 block lg:flex m-6 lg:p-6">
     <div class='block text-center'>
@@ -14,7 +14,7 @@
       <p class='text-lg tracking-normal leading-relaxed'>{{ description }}</p>
     </div>
   </div>
-  <div class="lg:w-5/12 block lg:flex m-6 p-6">
+  <div class="lg:w-5/12 block lg:flex m-6 lg:p-6">
     <div class='block'>
       <h1 class='text-3xl text-center  font-bold tracking-normal my-4 leading-relaxed py-4'>Te identificas con: {{ personality }}</h1>
       <img :src='image' class='w-full max-w-full h-96 max-h-full mx-auto my-0 object-cover rounded-md' />
@@ -60,7 +60,7 @@ import ChiliSvg from '../../assets/chiliSvg.vue';
 
       window.router = useRouter();
       onMounted(() => {
-        if(!firstName) {
+        if(firstName) {
           router.push({ name: 'termometro' })
         }
       })

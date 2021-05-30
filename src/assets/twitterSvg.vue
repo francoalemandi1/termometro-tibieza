@@ -1,6 +1,6 @@
 <template>
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="30px" y="30px"
-	 viewBox="0 0 112.197 112.197" style="enable-background:new 0 0 112.197 112.197;" xml:space="preserve" width='20px' height='20px'>
+	 viewBox="0 0 112.197 112.197" style="enable-background:new 0 0 112.197 112.197;" xml:space="preserve" :width='width' :height='width'>
 <g>
 	<circle style="fill:#71bbff;" cx="56.099" cy="56.098" r="56.098"/>
 	<g>
@@ -47,3 +47,18 @@
 </svg>
 
 </template>
+
+<script>
+export default {
+	props: {
+		width: {
+			type: String,
+			required: true
+		},
+		height: {
+			type: String,
+			required: true
+		}
+	}
+}
+</script>

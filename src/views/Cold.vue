@@ -27,7 +27,7 @@ export default {
     const results = reactive({
       type: 'pecho frío',
       personality: 'Gonzalo Higuaín',
-      image: 'https://i.imgur.com/USKWH9t.jpg',
+      image: 'https://i.imgur.com/f1T6idr.jpg',
       description: 'Hubieses errado tantos goles como el Pipa Higuaín. Se te congela el pecho en los momentos importantes: pateas finales hasta el último turno, suavizas todo por las dudas a alguien le caiga mal lo que decís, le pones chucker al mate y demasiada azúcar al café. Dejate de joder, espero que los "pechos fríos destacadxs" te ayuden a recapacitar.'  
     })
 

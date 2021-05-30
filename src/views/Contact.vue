@@ -12,7 +12,7 @@
       <div class='flex my-4'>
         <div class="w-12 mr-2 text-gray-500">
           <a href="https://twitter.com/francoalemandi" target='_blank' class="hover:text-gray-700">
-            <twitter-svg />
+            <twitter-svg width='40px' height='40px' />
           </a>
         </div>
       </div>
