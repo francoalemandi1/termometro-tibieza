@@ -1,5 +1,5 @@
 <template>
-<div v-if='!firstName' class='block lg:flex mx-4 lg:px-4 text-center lg:text-left'>
+<div v-if='firstName' class='block lg:flex mx-4 lg:px-4 text-center lg:text-left'>
   <div class='lg:w-1/12'></div>
   <div class="lg:w-5/12 block lg:flex m-6 lg:p-6">
     <div class='block text-center'>
@@ -60,7 +60,7 @@ import ChiliSvg from '../../assets/chiliSvg.vue';
 
       window.router = useRouter();
       onMounted(() => {
-        if(firstName) {
+        if(!firstName) {
           router.push({ name: 'termometro' })
         }
       })
