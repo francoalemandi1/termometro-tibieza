@@ -162,8 +162,6 @@ export default {
         // Calculo del total de puntos acumulados.
         points.list.push(points.amount);
         points.earned = points.list.reduce((a, b) => a + b)
-
-        console.log(points.earned)
       }
 
       if(current.questionNumber === questions.length) {
