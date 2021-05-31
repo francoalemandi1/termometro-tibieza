@@ -25,8 +25,8 @@ export default {
 
     const results = reactive({
       type: 'tibix',
-      personality: 'Alberto Fernández',
-      image: 'https://i.imgur.com/ohu8IH2.jpg',
+      personality: 'la pifiada de Higuaín en la final del mundial',
+      image: 'https://i.imgur.com/f1T6idr.jpg',
       description: 'Sos tan tibix que hasta para el test salís en el centro. Tratas de quedar bien con Dios y con el Diablo y casi nunca te la jugas. Podes autopercibirte como de izquierda o de derecha, pero en la práctica sos de centro. Podrías estar meses saliendo con alguien y no animarte a definir la relación.'  
     })
 
